@@ -3,6 +3,48 @@ white: #F7F9F9;
 light-blue: #2081C3;
 dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
-font-family: Arial, Helvetica, sans-serif
+
 */
   
+body{
+    background: #F7F9F9 ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+}
+
+nav {
+    background-color: #2081C3;
+}
+
+img {
+    width: 200px;
+    padding: 50px 0;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: #2081C3; 
+}
+
+a{
+    color: #F7F9F9;
+}
+
+.index-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.random-beer{
+    display: flex;
+    justify-content: center;
+}
+
